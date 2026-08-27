@@ -330,6 +330,42 @@
     .hero-line, .meet-copy{ font-size:1.25rem; }
     .gallery-scroll{ justify-content:center; }
   }
+
+  /* Developer Signature */
+  .footer-section {
+    position: relative;
+    min-height: 100svh;
+  }
+
+  .developer-signature {
+    position: absolute;
+    right: 5vw;
+    bottom: 1.5rem;
+    z-index: 10;
+    text-align: right;
+    pointer-events: none;
+  }
+
+  .developer-signature span {
+    display: block;
+    font-family: var(--font-body);
+    font-size: 0.58rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--lavender);
+    opacity: 0.8;
+  }
+
+  .developer-signature strong {
+    display: block;
+    margin-top: 2px;
+    font-family: var(--font-script);
+    font-size: 1.35rem;
+    font-weight: 400;
+    color: var(--gold);
+    text-shadow: 0 2px 8px rgba(246,196,83,0.3);
+  }
 </style>
 </head>
 <body>
@@ -507,6 +543,10 @@
   <p class="footer-line reveal">RSVP by calling or messaging us — let's make some magical memories together. 💜🐚</p>
   <a class="call-btn reveal" href="tel:+919884544411">📞 RSVP: 98845 44411</a>
   <p class="footer-note">MADE WITH LOVE FOR OUR LITTLE MERMAID · SEE YOU THERE</p>
+  <div class="developer-signature">
+    <span>🧜‍♀️ No mermaids were harmed in the coding of this site</span>
+    <strong>Joseph Vishaal S</strong>
+  </div>
 </section>
 
 <script>
